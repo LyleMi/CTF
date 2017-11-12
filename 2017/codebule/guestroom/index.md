@@ -1,6 +1,6 @@
-Download source code from site. And we can see this site is a simple PHP frame work with login and register function.
+Download source code from site, then we can see this is a simple PHP framework with login and register action.
 
-The function used to cat flag is below.
+Below is the function used to cat flag.
 
 ```php
 $app->get('/flag', function () use ($app) {
@@ -11,9 +11,9 @@ $app->get('/flag', function () use ($app) {
 });
 ```
 
-Seems we need to login not as guest, so let's look at register function.
+Seems we need to login as a rule apart from guest, so let's look at register function.
 
-```
+```php
 $app->post('/register', function () use ($app) {
     $id = (isset($_POST['id']) === true && $_POST['id'] !== '') ? (string)$_POST['id'] : die('Missing id');
     $pw = (isset($_POST['pw']) === true && $_POST['pw'] !== '') ? (string)$_POST['pw'] : die('Missing pw');
@@ -45,9 +45,9 @@ $app->post('/register', function () use ($app) {
 });
 ```
 
-The key code is ``$app->code[$matches[1]] === $matches[2]``, seems when we know code, we can register as admin or user, but the code's value is null.
+The key point is ``$app->code[$matches[1]] === $matches[2]``, seems when we know code, we can register as admin or user, but the code's value is null.
 
-```
+```php
 $app->code = [
     'ADMIN' => null, // TODO: Set code
     'USER' => null, // TODO: Set code
@@ -58,8 +58,7 @@ $app->code = [
 Seems we will never got right code to register.
 And i notice another function:
 
-```
-
+```php
 $app->post('/login-2fa', function () use ($app) {
     if (isset($_SESSION['id']) === false) {
         $app->redirect('/#missing+login');
@@ -88,6 +87,8 @@ $app->post('/login-2fa', function () use ($app) {
 });
 ```
 
-key point is ``$sth->fetch()[0] === 'GUEST'``, maybe we do not need to register as admin or user, we just need not have a acl record. ``preg_match('/\A(ADMIN|USER|GUEST)--((?:###|\w)+)\z/i', $code, $matches);`` reminder me. Regexp is resource consuming, so we can construct a very long code, and php will timeout and die.
+The key point is ``$sth->fetch()[0] === 'GUEST'``, maybe we do not need to register as admin or user, we just need not have an acl record.
 
-so try a code like ``ADMIN--###A###A....(repeat many times)``, and than login with login-2fa, will get flag.
+``preg_match('/\A(ADMIN|USER|GUEST)--((?:###|\w)+)\z/i', $code, $matches);`` give me some idea. Regexp is resource consuming, so we can construct a very long code, and php will timeout and not run following code.
+
+So register with a code like ``ADMIN--###A###A....(repeat many times)``, and login with ``/login-2fa`` will get flag.

