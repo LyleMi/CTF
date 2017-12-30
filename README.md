@@ -23,3 +23,15 @@ SqlSRF, ``Web 400``
 automatic_door, ``Web 500``
 
 [https://github.com/LyleMi/CTF/blob/master/2017/seccon/automatic_door/index.md](https://github.com/LyleMi/CTF/blob/master/2017/seccon/automatic_door/index.md)
+
+## 34C3 CTF
+
+superblog1, ``Web 338``
+
+[https://github.com/LyleMi/CTF/blob/master/2017/34C3/superblog/index.md](https://github.com/LyleMi/CTF/blob/master/2017/34C3/superblog/index.md)
+
+superblog2, ``Web 401``
+
+[https://github.com/LyleMi/CTF/blob/master/2017/34C3/superblog/index.md](https://github.com/LyleMi/CTF/blob/master/2017/34C3/superblog/index.md)
+
+
