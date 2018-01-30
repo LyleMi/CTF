@@ -4,6 +4,12 @@ CTF (Capture The Flag) writeups, code snippets, scripts
 
 ## 2017
 
+### Plaid CTF 2017
+
+Pykemon, ``Web 151``
+
+[https://github.com/LyleMi/CTF/blob/master/2017/PlaidCTF/Pykemon/index.md](https://github.com/LyleMi/CTF/blob/master/2017/PlaidCTF/Pykemon/index.md)
+
 ### Code Blue CTF 2017
 
 guestroom, ``Web 410``
