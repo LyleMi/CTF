@@ -6,11 +6,11 @@ CTF (Capture The Flag) writeups, code snippets, scripts
 
 ### CodeGate CTF 2018
 
-SimpleCMS, ``Web ``
+SimpleCMS, ``Web 193``, ``SQli``
 
 [https://github.com/LyleMi/CTF/blob/master/2018/CodeGate/SimpleCMS/index.md](https://github.com/LyleMi/CTF/blob/master/2018/CodeGate/SimpleCMS/index.md)
 
-rbSql, ``Web ``
+rbSql, ``Web 212``
 
 [https://github.com/LyleMi/CTF/blob/master/2018/CodeGate/rbSql/index.md](https://github.com/LyleMi/CTF/blob/master/2018/CodeGate/rbSql/index.md)
 
@@ -18,7 +18,7 @@ rbSql, ``Web ``
 
 ### Plaid CTF 2017
 
-Pykemon, ``Web 151``
+Pykemon, ``Web 151``, ``Flask``
 
 [https://github.com/LyleMi/CTF/blob/master/2017/PlaidCTF/Pykemon/index.md](https://github.com/LyleMi/CTF/blob/master/2017/PlaidCTF/Pykemon/index.md)
 
@@ -34,7 +34,7 @@ SSR, ``Web 399``
 
 ## SECCON 2017
 
-SqlSRF, ``Web 400``
+SqlSRF, ``Web 400``, ``SSRF``
 
 [https://github.com/LyleMi/CTF/blob/master/2017/seccon/sqlsrf/index.md](https://github.com/LyleMi/CTF/blob/master/2017/seccon/sqlsrf/index.md)
 
@@ -44,11 +44,11 @@ automatic_door, ``Web 500``
 
 ## 34C3 CTF
 
-superblog1, ``Web 338``
+superblog1, ``Web 338``, ``XSS``
 
 [https://github.com/LyleMi/CTF/blob/master/2017/34C3/superblog/index.md](https://github.com/LyleMi/CTF/blob/master/2017/34C3/superblog/index.md)
 
-superblog2, ``Web 401``
+superblog2, ``Web 401``, ``XSS``
 
 [https://github.com/LyleMi/CTF/blob/master/2017/34C3/superblog/index.md](https://github.com/LyleMi/CTF/blob/master/2017/34C3/superblog/index.md)
 
