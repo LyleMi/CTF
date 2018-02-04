@@ -2,6 +2,18 @@
 
 CTF (Capture The Flag) writeups, code snippets, scripts 
 
+## 2018
+
+### CodeGate CTF 2018
+
+SimpleCMS, ``Web ``
+
+[https://github.com/LyleMi/CTF/blob/master/2018/CodeGate/SimpleCMS/index.md](https://github.com/LyleMi/CTF/blob/master/2018/CodeGate/SimpleCMS/index.md)
+
+rbSql, ``Web ``
+
+[https://github.com/LyleMi/CTF/blob/master/2018/CodeGate/rbSql/index.md](https://github.com/LyleMi/CTF/blob/master/2018/CodeGate/rbSql/index.md)
+
 ## 2017
 
 ### Plaid CTF 2017
