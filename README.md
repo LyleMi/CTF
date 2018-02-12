@@ -4,6 +4,12 @@ CTF (Capture The Flag) writeups, code snippets, scripts
 
 ## 2018
 
+### Harekaze CTF 2018
+
+A custom CSS for the flag, ``Web 250``
+
+[https://github.com/LyleMi/CTF/blob/master/2018/Harekaze/CSS/index.md](https://github.com/LyleMi/CTF/blob/master/2018/Harekaze/CSS/index.md)
+
 ### CodeGate CTF 2018
 
 SimpleCMS, ``Web 193``, ``SQli``
