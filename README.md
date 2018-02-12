@@ -2,6 +2,17 @@
 
 CTF (Capture The Flag) writeups, code snippets, scripts 
 
+## Index
+
+- 2018
+    - [Harekaze CTF](https://github.com/LyleMi/CTF#harekaze-ctf-2018)
+    - [CodeGate CTF](https://github.com/LyleMi/CTF#codegate-ctf-2018)
+- 2017
+    - [Plaid CTF](https://github.com/LyleMi/CTF#plaid-ctf-2017)
+    - [Code Blue CTF](https://github.com/LyleMi/CTF#code-blue-ctf-2017)
+    - [SECCON CTF](https://github.com/LyleMi/CTF#seccon-2017)
+    - [34C3 CTF](https://github.com/LyleMi/CTF#34c3-ctf)
+
 ## 2018
 
 ### Harekaze CTF 2018
