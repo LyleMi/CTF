@@ -1,0 +1,1 @@
+In this site, we can see ``YzQwMzNiZmY5NGI1NjdhMTkwZTMzZmFhNTUxZjQxMWNhZWY0NDRmMg==``, decode it with base64, get ``c4033bff94b567a190e33faa551f411caef444f2``, guess this is a md5, and from hash database, we can know ``md5("test") == "c4033bff94b567a190e33faa551f411caef444f2"``, so submit ``test``, then get points.
