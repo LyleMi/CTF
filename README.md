@@ -7,6 +7,7 @@ CTF (Capture The Flag) writeups, code snippets, scripts
 - 2018
     - [Harekaze CTF](https://github.com/LyleMi/CTF#harekaze-ctf-2018)
     - [CodeGate CTF](https://github.com/LyleMi/CTF#codegate-ctf-2018)
+    - [Insomni'hack teaser](https://github.com/LyleMi/CTF##insomnihack-teaser-2018)
 - 2017
     - [Plaid CTF](https://github.com/LyleMi/CTF#plaid-ctf-2017)
     - [Code Blue CTF](https://github.com/LyleMi/CTF#code-blue-ctf-2017)
@@ -36,6 +37,17 @@ SimpleCMS, ``Web 193``, ``SQli``
 rbSql, ``Web 212``
 
 [https://github.com/LyleMi/CTF/blob/master/2018/CodeGate/rbSql/index.md](https://github.com/LyleMi/CTF/blob/master/2018/CodeGate/rbSql/index.md)
+
+### Insomni'hack teaser 2018
+
+VulnShop, ``Web 62``
+
+[https://github.com/LyleMi/CTF/blob/master/2018/Insomnihack/VulnShop/index.md](https://github.com/LyleMi/CTF/blob/master/2018/Insomnihack/VulnShop/index.md)
+
+
+File Vault, ``Web 201``
+
+[https://github.com/LyleMi/CTF/blob/master/2018/Insomnihack/FileVault/index.md](https://github.com/LyleMi/CTF/blob/master/2018/Insomnihack/FileVault/index.md)
 
 ## 2017
 
