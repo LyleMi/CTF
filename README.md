@@ -5,6 +5,7 @@ CTF (Capture The Flag) writeups, code snippets, scripts
 ## Index
 
 - 2018
+    - [N1CTF](https://github.com/LyleMi/CTF#n1ctf-2018)
     - [Harekaze CTF](https://github.com/LyleMi/CTF#harekaze-ctf-2018)
     - [CodeGate CTF](https://github.com/LyleMi/CTF#codegate-ctf-2018)
     - [Insomni'hack teaser](https://github.com/LyleMi/CTF##insomnihack-teaser-2018)
@@ -21,6 +22,21 @@ CTF (Capture The Flag) writeups, code snippets, scripts
     - [Webhacking.kr](https://github.com/LyleMi/CTF#webhackingkr)
 
 ## 2018
+
+### N1CTF 2018
+
+77777, ``Web 104``, ``SQli``
+
+[https://github.com/LyleMi/CTF/blob/master/2018/N1CTF/77777/index.md](https://github.com/LyleMi/CTF/blob/master/2018/N1CTF/77777/index.md)
+
+77777 2, ``Web 208``, ``SQli``
+
+[https://github.com/LyleMi/CTF/blob/master/2018/N1CTF/77777/index.md](https://github.com/LyleMi/CTF/blob/master/2018/N1CTF/77777/index.md)
+
+Funning eating cms, ``Web 416``
+
+[https://github.com/LyleMi/CTF/blob/master/2018/N1CTF/cms/index.md](https://github.com/LyleMi/CTF/blob/master/2018/N1CTF/cms/index.md)
+
 
 ### Harekaze CTF 2018
 
