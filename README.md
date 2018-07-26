@@ -8,7 +8,8 @@ CTF (Capture The Flag) writeups, code snippets, scripts
     - [N1CTF](https://github.com/LyleMi/CTF#n1ctf-2018)
     - [Harekaze CTF](https://github.com/LyleMi/CTF#harekaze-ctf-2018)
     - [CodeGate CTF](https://github.com/LyleMi/CTF#codegate-ctf-2018)
-    - [Insomni'hack teaser](https://github.com/LyleMi/CTF##insomnihack-teaser-2018)
+    - [Insomni'hack teaser](https://github.com/LyleMi/CTF#insomnihack-teaser-2018)
+    - [CTFZone](https://github.com/LyleMi/CTF#ctfzone)
 - 2017
     - [Plaid CTF](https://github.com/LyleMi/CTF#plaid-ctf-2017)
     - [Code Blue CTF](https://github.com/LyleMi/CTF#code-blue-ctf-2017)
@@ -37,7 +38,6 @@ Funning eating cms, ``Web 416``
 
 [https://github.com/LyleMi/CTF/blob/master/2018/N1CTF/cms/index.md](https://github.com/LyleMi/CTF/blob/master/2018/N1CTF/cms/index.md)
 
-
 ### Harekaze CTF 2018
 
 A custom CSS for the flag, ``Web 250``
@@ -60,10 +60,19 @@ VulnShop, ``Web 62``
 
 [https://github.com/LyleMi/CTF/blob/master/2018/Insomnihack/VulnShop/index.md](https://github.com/LyleMi/CTF/blob/master/2018/Insomnihack/VulnShop/index.md)
 
-
 File Vault, ``Web 201``
 
 [https://github.com/LyleMi/CTF/blob/master/2018/Insomnihack/FileVault/index.md](https://github.com/LyleMi/CTF/blob/master/2018/Insomnihack/FileVault/index.md)
+
+### CTFZone 2018
+
+Piggy Bank, ``Web 105``, ``XML Injection``
+
+[https://github.com/LyleMi/CTF/blob/master/2018/CTFZone/Piggy/index.md](https://github.com/LyleMi/CTF/blob/master/2018/CTFZone/Piggy/index.md)
+
+Magician, ``Web 256``, ``XSS``
+
+[https://github.com/LyleMi/CTF/blob/master/2018/CTFZone/Magician/index.md](https://github.com/LyleMi/CTF/blob/master/2018/CTFZone/Magician/index.md)
 
 ## 2017
 
