@@ -10,6 +10,7 @@ CTF (Capture The Flag) writeups, code snippets, scripts
     - [CodeGate CTF](https://github.com/LyleMi/CTF#codegate-ctf-2018)
     - [Insomni'hack teaser](https://github.com/LyleMi/CTF#insomnihack-teaser-2018)
     - [CTFZone](https://github.com/LyleMi/CTF#ctfzone-2018)
+    - [TokyoWesterns](https://github.com/LyleMi/CTF#tokyowesterns-ctf-2018)
 - 2017
     - [Plaid CTF](https://github.com/LyleMi/CTF#plaid-ctf-2017)
     - [Code Blue CTF](https://github.com/LyleMi/CTF#code-blue-ctf-2017)
@@ -73,6 +74,12 @@ Piggy Bank, ``Web 105``, ``XML Injection``
 Magician, ``Web 256``, ``XSS``
 
 [https://github.com/LyleMi/CTF/blob/master/2018/CTFZone/Magician/index.md](https://github.com/LyleMi/CTF/blob/master/2018/CTFZone/Magician/index.md)
+
+### TokyoWesterns CTF 2018
+
+Shrine, ``Web``, ``Python SSTI``
+
+[https://github.com/LyleMi/CTF/blob/master/2018/TokyoWesterns/Shrine/index.md](https://github.com/LyleMi/CTF/blob/master/2018/TokyoWesterns/Shrine/index.md)
 
 ## 2017
 
