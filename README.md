@@ -11,6 +11,7 @@ CTF (Capture The Flag) writeups, code snippets, scripts
     - [Insomni'hack teaser](https://github.com/LyleMi/CTF#insomnihack-teaser-2018)
     - [CTFZone](https://github.com/LyleMi/CTF#ctfzone-2018)
     - [TokyoWesterns](https://github.com/LyleMi/CTF#tokyowesterns-ctf-2018)
+    - [IceCTF](https://github.com/LyleMi/CTF#ice-ctf-2018)
 - 2017
     - [Plaid CTF](https://github.com/LyleMi/CTF#plaid-ctf-2017)
     - [Code Blue CTF](https://github.com/LyleMi/CTF#code-blue-ctf-2017)
@@ -80,6 +81,12 @@ Magician, ``Web 256``, ``XSS``
 Shrine, ``Web``, ``Python SSTI``
 
 [https://github.com/LyleMi/CTF/blob/master/2018/TokyoWesterns/Shrine/index.md](https://github.com/LyleMi/CTF/blob/master/2018/TokyoWesterns/Shrine/index.md)
+
+### Ice CTF 2018
+
+Lights, ``Web``
+
+[https://github.com/LyleMi/CTF/blob/master/2018/Ice/lights/index.md](https://github.com/LyleMi/CTF/blob/master/2018/Ice/lights/index.md)
 
 ## 2017
 
