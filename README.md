@@ -91,9 +91,17 @@ Lights, ``Web``
 
 ### CSAW CTF 2018
 
+ldab, ``Web 50``, ``LDAP``
+
+[https://github.com/LyleMi/CTF/blob/master/2018/CSAW/ldab/index.md](https://github.com/LyleMi/CTF/blob/master/2018/CSAW/ldab/index.md)
+
 sso, ``Web 100``, ``OAuth``
 
 [https://github.com/LyleMi/CTF/blob/master/2018/CSAW/sso/index.md](https://github.com/LyleMi/CTF/blob/master/2018/CSAW/sso/index.md)
+
+hacker movie club, ``Web 200``, ``Web Cache Poison``
+
+[https://github.com/LyleMi/CTF/blob/master/2018/CSAW/hackermovie/index.md](https://github.com/LyleMi/CTF/blob/master/2018/CSAW/hackermovie/index.md)
 
 novuln, ``Web 400``
 
