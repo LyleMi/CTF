@@ -14,6 +14,7 @@ CTF (Capture The Flag) writeups, code snippets, scripts
     - [IceCTF](https://github.com/LyleMi/CTF#ice-ctf-2018)
     - [CSAW CTF](https://github.com/LyleMi/CTF#csaw-ctf-2018)
     - [Dragon CTF](https://github.com/LyleMi/CTF#dragon-ctf-2018)
+    - [Hack.lu CTF](https://github.com/LyleMi/CTF#hacklu-ctf-2018)
 - 2017
     - [Plaid CTF](https://github.com/LyleMi/CTF#plaid-ctf-2017)
     - [Code Blue CTF](https://github.com/LyleMi/CTF#code-blue-ctf-2017)
@@ -113,6 +114,12 @@ novuln, ``Web 400``
 Nodepad, ``Web 330``
 
 [https://github.com/LyleMi/CTF/blob/master/2018/Dragon/Nodepad/index.md](https://github.com/LyleMi/CTF/blob/master/2018/Dragon/Nodepad/index.md)
+
+### Hack.lu CTF 2018
+
+Baby PHP, ``Web 153``
+
+[https://github.com/LyleMi/CTF/blob/master/2018/Hacklu/BabyPHP/index.md](https://github.com/LyleMi/CTF/blob/master/2018/Hacklu/BabyPHP/index.md)
 
 ## 2017
 
